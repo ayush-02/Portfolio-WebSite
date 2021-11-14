@@ -461,3 +461,20 @@ footer span a:hover{
     margin-right: 0%;
   }
 } 
+
+.title {
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-name: about;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes about {
+  from {
+    margin-left: -5%;
+  }
+
+  to {
+    margin-left: 5%;
+  }
+} 
